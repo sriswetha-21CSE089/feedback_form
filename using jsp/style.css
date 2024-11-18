@@ -1,0 +1,63 @@
+       body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e8f5e9; /* Light green background color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background-color: #ffffff;
+            border-radius: 15px;
+            padding: 25px;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            font-weight: 500;
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input[type="text"], input[type="email"], input[type="file"], textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            outline: none;
+            background-color: #fff;
+            transition: border-color 0.3s;
+        }
+        input[type="text"]:focus, input[type="email"]:focus, input[type="file"]:focus, textarea:focus {
+            border-color: #888;
+        }
+        input::placeholder, textarea::placeholder {
+            color: #aaa;
+        }
+        textarea {
+            resize: none;
+            min-height: 80px;
+        }
+        .submit-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #e91e63;
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .submit-btn:hover {
+            background-color: #c2185b;
+        }
